@@ -12,16 +12,16 @@
             <div class="nav__link">
                 <ul class="nav__link--navbar">
                     <li class="navbar">
-                        <a class="navbar__link" href="/sellGuestPost.php">Sell Guest Posts</a>
+                        <a class="navbar__link" href="/UP/sellGuestPost.php">Sell Guest Posts</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/marketplace.php">Marketplace</a>
+                        <a class="navbar__link" href="/UP/marketplace.php">Marketplace</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/guestPostingServices">Guest Posting Services</a>
+                        <a class="navbar__link" href="/UP/guestPostingServices">Guest Posting Services</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/da-dr.php">Increase DA/DR</a>
+                        <a class="navbar__link" href="/UP/da-dr.php">Increase DA/DR</a>
                     </li>
                 </ul>
             </div>
@@ -30,7 +30,7 @@
                     <a class="cart" href="/cart.php">
                         <li class="numberItem"><i class="fas fa-cart-plus cart"></i> 0 item</li>
                     </a>
-                    <li class="login"><a href="/login.php">Login</a></li>
+                    <li class="login"><a href="/UP/login.php">Login</a></li>
                 </ul>
             </div>
         </div>

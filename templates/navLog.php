@@ -18,16 +18,16 @@ if (empty($_SESSION['active'])) {
             <div class="nav__link">
                 <ul class="nav__link--navbar">
                     <li class="navbar">
-                        <a class="navbar__link" href="/sellGuestPost.php">Sell Guest Posts</a>
+                        <a class="navbar__link" href="/UP/sellGuestPost.php">Sell Guest Posts</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/marketplace.php">Marketplace</a>
+                        <a class="navbar__link" href="/UP/marketplace.php">Marketplace</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/guestPostingServices">Guest Posting Services</a>
+                        <a class="navbar__link" href="/UP/guestPostingServices">Guest Posting Services</a>
                     </li>
                     <li class="navbar">
-                        <a class="navbar__link" href="/da-dr.php">Increase DA/DR</a>
+                        <a class="navbar__link" href="/UP/da-dr.php">Increase DA/DR</a>
                     </li>
                 </ul>
             </div>
@@ -42,9 +42,9 @@ if (empty($_SESSION['active'])) {
                 </ul>
                 <ul class="navLogin" id="nL">
                     <li class="liL"><a
-                            href="/login/advertiser/index.php?id=<?php echo $_SESSION['idUser']; ?>">Buyer</a></li>
+                            href="/UP/login/advertiser/index.php?id=<?php echo $_SESSION['idUser']; ?>">Buyer</a></li>
                     <li class="liL"><a
-                            href="/login/publisher/index.php?id=<?php echo $_SESSION['idUser']; ?>">Seller</a></li>
+                            href="/UP/login/publisher/index.php?id=<?php echo $_SESSION['idUser']; ?>">Seller</a></li>
                     <?php
                         include "php/db.php";
                         $query_data = mysqli_query($conexion, "CALL data();");
@@ -56,9 +56,9 @@ if (empty($_SESSION['active'])) {
                     <li class="liL"><a href="/login/profile/index.php?id=<?php echo $_SESSION['idUser']; ?>">My
                             Profile</a></li>
 
-                    <li class="liL"><a href="/login/profile/">Transactions History</a></li>
+                    <li class="liL"><a href="/UP/login/profile/">Transactions History</a></li>
                     <li class="liL"><a href="">Balance: $<?php echo $_SESSION['balance']; ?> usd</a></li>
-                    <li class="liL"><a href="/php/salir.php">Logout</a></li>
+                    <li class="liL"><a href="/UP/php/salir.php">Logout</a></li>
                 </ul>
             </div>
         </div>
